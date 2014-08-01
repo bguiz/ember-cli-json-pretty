@@ -1,0 +1,11 @@
+.json-pretty pre {
+    outline: 1px solid #bbb;
+    padding: 5px;
+    margin: 5px;
+    font-size: 8pt;
+}
+.json-pretty pre .string { color: #f00; }
+.json-pretty pre .number { color: #000; }
+.json-pretty pre .boolean { color: #000; }
+.json-pretty pre .null { color: #000; }
+.json-pretty pre .key { color: #f0f; }

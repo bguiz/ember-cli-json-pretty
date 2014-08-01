@@ -1,0 +1,25 @@
+{
+  "name": "ember-cli-json-pretty",
+  "version": "0.0.1",
+  "description": "An ember-cli component that displays a JSON object in your app, which can be handy during development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bguiz/ember-cli-json-pretty"
+  },
+  "keywords": [
+    "ember-addon",
+    "ember-cli",
+    "json",
+    "util"
+  ],
+  "author": "bguiz",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/bguiz/ember-cli-json-pretty/issues"
+  },
+  "homepage": "https://github.com/bguiz/ember-cli-json-pretty"
+}
