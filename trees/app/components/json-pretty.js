@@ -4,7 +4,7 @@ var JsonPrettyComponent = Ember.Component.extend({
     attributeBindings: ['obj', 'shouldHighlight'],
     classNames: ['json-pretty'],
 
-    obj: Ember.required(),
+    obj: null,
     shouldHighlight: true,
 
     preformattedText: function() {
