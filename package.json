@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-json-pretty",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An ember-cli component that displays a JSON object in your app, which can be handy during development",
   "main": "index.js",
   "scripts": {
