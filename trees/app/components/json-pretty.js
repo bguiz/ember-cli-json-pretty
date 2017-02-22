@@ -19,7 +19,7 @@ var JsonPrettyComponent = Ember.Component.extend({
         if (out && this.get('shouldHighlight')) {
             out = this.highlightSyntax(out);
         }
-        return new Ember.Handlebars.SafeString(out);
+        return new Ember.String.htmlSafe(out);
     }.property('obj'),
 
     //Thanks to: http://jsfiddle.net/KJQ9K/
