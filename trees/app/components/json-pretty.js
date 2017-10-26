@@ -7,7 +7,7 @@ var JsonPrettyComponent = Ember.Component.extend({
     obj: null,
     shouldHighlight: true,
 
-    preformattedText: function() {
+    preformattedText: Ember.computed('obj', function() {
         var obj = this.get('obj');
         var out;
         try {
@@ -20,7 +20,7 @@ var JsonPrettyComponent = Ember.Component.extend({
             out = this.highlightSyntax(out);
         }
         return new Ember.String.htmlSafe(out);
-    }.property('obj'),
+    }),
 
     //Thanks to: http://jsfiddle.net/KJQ9K/
     highlightSyntax: function(json) {
