@@ -17,7 +17,7 @@ function unwatchedTree(dir) {
 }
 
 EmberCliJsonPretty.prototype.treeFor = function treeFor(name) {
-    var treepath = path.normalize('node_modules/ember-cli-json-pretty/trees/'+name);
+    var treepath = path.resolve(require.resolve('ember-cli-json-pretty'), '..', 'trees', name);
     return (fs.existsSync(treepath)) ? unwatchedTree(treepath) : null;
 };
 
