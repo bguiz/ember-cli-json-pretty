@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-json-pretty/components/json-pretty/component';
